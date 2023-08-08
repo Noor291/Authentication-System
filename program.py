@@ -31,7 +31,7 @@ class App:
         if not os.path.exists(self.db_dir):
             os.mkdir(self.db_dir)
 
-        self.log_path = './log.txt'
+        #self.log_path = './log.txt'
 
     def add_webcam(self, label):
         if 'cap' not in self.__dict__:
@@ -62,9 +62,9 @@ class App:
         else:
             util.msg_box(
                 'Identified!', 'Person Identified as {}.'.format(name))
-            with open(self.log_path, 'a') as f:
-                f.write('{},{},in\n'.format(name, datetime.datetime.now()))
-                f.close()
+            #with open(self.log_path, 'a') as f:
+                #f.write('{},{},in\n'.format(name, datetime.datetime.now()))
+                #f.close()
 
     def register_new_user(self):
         self.register_new_user_window = tk.Toplevel(self.main_window)
