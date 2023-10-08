@@ -3,51 +3,40 @@ import pickle
 import tkinter as tk
 from tkinter import messagebox
 import face_recognition
-
-
-def get_button(window, text, color, command, fg='white'):
-    button = tk.Button(
+import ttkbootstrap as ttk
+from ttkbootstrap.constants import *
+from ttkbootstrap.dialogs import Messagebox
+# my_style=ttk.Style()
+# my_style.configure('primary.TButton',font=('Helvetica bold', 20))
+def get_button(window, text, color, command, fg='black'):
+    button = ttk.Button(
         window,
         text=text,
-        activebackground="black",
-        activeforeground="white",
-        fg=fg,
-        bg=color,
+        bootstyle=color,
         command=command,
-        height=2,
-        width=20,
-        font=('Helvetica bold', 20)
+        width=35,
     )
-
     return button
 
-
 def get_img_label(window):
-    label = tk.Label(window)
+    label = ttk.Label(window)
     label.grid(row=0, column=0)
     return label
 
-
 def get_text_label(window, text):
-    label = tk.Label(window, text=text)
-    label.config(font=("sans-serif", 21), justify="left")
+    label = ttk.Label(window, text=text)
+    label.config(font=("sans-serif", 12), justify="left")
     return label
 
-
 def get_entry_text(window):
-    inputtxt = tk.Text(window,
-                       height=2,
-                       width=15, font=("Arial", 32))
-    return inputtxt
-
+    name = ttk.Text(window,height=0.5, width=20,font=("sans-serif", 12))
+    return name
 
 def msg_box(title, description):
-    messagebox.showinfo(title, description)
-
+    Messagebox.show_info(description, title)
 
 def recognize(img, db_path):
     # it is assumed there will be at most 1 match in the db
-
     embeddings_unknown = face_recognition.face_encodings(img)
     if len(embeddings_unknown) == 0:
         return 'no_persons_found'
