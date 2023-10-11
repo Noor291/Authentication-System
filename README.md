@@ -21,9 +21,8 @@ This FaceAuth application is a Python-based program that uses the face_recogniti
 - ttkbootstrap: A library for creating themed GUIs.
 
 ## Screenshot of the interface
-![image](https://github.com/Noor291/FaceAuth/assets/78134535/1e6a3f46-9994-4457-8c59-55c08a7e2112)
+<img src="https://github.com/Noor291/FaceAuth/assets/78134535/1e6a3f46-9994-4457-8c59-55c08a7e2112" alt="image" height="200" width="400">
+<img src="https://github.com/Noor291/FaceAuth/assets/78134535/7a8ed6e8-c8df-40e3-9fe9-5b2942dc5d08" alt="image" height="200" width="400">
+<img src="https://github.com/Noor291/FaceAuth/assets/78134535/6001ea4d-98c8-4833-b63a-359a504dcd5e" alt="image" height="200" width="400">
 
-![image](https://github.com/Noor291/FaceAuth/assets/78134535/7a8ed6e8-c8df-40e3-9fe9-5b2942dc5d08)
-
-![image](https://github.com/Noor291/FaceAuth/assets/78134535/6001ea4d-98c8-4833-b63a-359a504dcd5e)
 
