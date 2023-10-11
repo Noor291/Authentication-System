@@ -22,7 +22,8 @@ This FaceAuth application is a Python-based program that uses the face_recogniti
 
 ## Screenshot of the interface
 ![image](https://github.com/Noor291/FaceAuth/assets/78134535/1e6a3f46-9994-4457-8c59-55c08a7e2112)
-![image](https://github.com/Noor291/FaceAuth/assets/78134535/2ca8f895-8c96-4120-88ca-117cf6132a13)
+
 ![image](https://github.com/Noor291/FaceAuth/assets/78134535/7a8ed6e8-c8df-40e3-9fe9-5b2942dc5d08)
-![image](https://github.com/Noor291/FaceAuth/assets/78134535/4faf1ef4-42a7-45ed-9a4f-1abd571b716d)
+
+![image](https://github.com/Noor291/FaceAuth/assets/78134535/6001ea4d-98c8-4833-b63a-359a504dcd5e)
 
